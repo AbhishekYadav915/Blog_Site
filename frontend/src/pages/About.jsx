@@ -46,7 +46,7 @@ function About() {
       </p>
       <br />
       <span>
-        Akhil K is dedicated to leveraging his expertise to contribute to
+        Abhishek yadav is dedicated to leveraging his expertise to contribute to
         innovative projects and drive technological advancements. Whether
         working on front-end interfaces or back-end logic, he is passionate
         about delivering exceptional digital solutions that meet user needs and
@@ -60,8 +60,8 @@ function About() {
         holds immense admiration for <strong> King Kohli.</strong> His favorite
         person and biggest inspiration is his twin brother,{" "}
         <strong>Ankush.</strong> Their friendly rivalry and deep bond have
-        significantly shaped Akhil’s journey. Ankush is not only a great
-        competitor but also a steadfast friend, constantly motivating Akhil to
+        significantly shaped Abhishek’s journey. Ambuj is not only a great
+        competitor but also a steadfast friend, constantly motivating Abhishek to
         strive for excellence.
       </p>
     </div>
