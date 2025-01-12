@@ -1,20 +1,20 @@
 import React from "react";
-import Navbar from "../src/components/Navbar";
-import Home from "../src/components/Home";
-import Footer from "../src/components/Footer";
+import Navbar from "../src/components/Navbar.jsx";
+import Home from "../src/components/Home.jsx";
+import Footer from "../src/components/Footer.jsx";
 import { Navigate, Route, Routes, useLocation } from "react-router-dom";
-import Blogs from "../src/pages/Blogs";
-import About from "../src/pages/About";
-import Contact from "../src/pages/Contact";
-import Login from "../src/pages/Login";
-import Register from "../src/pages/Register";
-import Dashboard from "../src/pages/Dashboard";
-import Creators from "./pages/Creators";
-import { useAuth } from "./context/AuthProvider";
+import Blogs from "../src/pages/Blogs.jsx";
+import About from "../src/pages/About.jsx";
+import Contact from "../src/pages/Contact.jsx";
+import Login from "../src/pages/Login.jsx";
+import Register from "../src/pages/Register.jsx";
+import Dashboard from "../src/pages/Dashboard.jsx";
+import Creators from "./pages/Creators.jsx";
+import { useAuth } from "./context/AuthProvider.jsx";
 import { Toaster } from "react-hot-toast";
-import UpdateBlog from "./dashboard/UpdateBlog";
-import Detail from "./pages/Detail";
-import NotFound from "./pages/NotFound";
+import UpdateBlog from "./dashboard/UpdateBlog.jsx";
+import Detail from "./pages/Detail.jsx";
+import NotFound from "./pages/NotFound.jsx";
 function App() {
   const location = useLocation();
   const hideNavbarFooter = ["/dashboard", "/login", "/register"].includes(

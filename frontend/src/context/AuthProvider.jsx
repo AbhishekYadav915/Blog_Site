@@ -25,7 +25,7 @@ export const AuthProvider = ({ children }) => {
             }
           );
           console.log(data.user);
-          setProfile(data.user);
+          setProfile(data);
           setIsAuthenticated(true);
         }
       } catch (error) {

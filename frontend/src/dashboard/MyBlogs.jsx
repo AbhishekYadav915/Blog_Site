@@ -76,9 +76,12 @@ function MyBlogs() {
               </div>
             ))
           ) : (
-            <p className="text-center text-gray-500">
-              You have not posted any blog to see!
-            </p>
+            <div className="flex justify-center items-center h-[80vh] w-[100vh]">
+              <p className="text-center text-gray-500 font-semibold text-2xl">
+                   You have not posted any blog to see!
+                </p>
+</div>
+
           )}
         </div>
       </div>

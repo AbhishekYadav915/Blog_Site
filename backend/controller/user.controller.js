@@ -55,7 +55,7 @@ export const register = async (req, res) => {
     await newUser.save();
     if (newUser) {
       let token = await createTokenAndSaveCookies(newUser._id, res);
-      console.log("Singup: ", token);
+      console.log("Signup: ", token);
       res.status(201).json({
         message: "User registered successfully",
         user: {

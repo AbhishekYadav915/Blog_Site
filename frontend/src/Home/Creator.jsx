@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 function Creator() {
   const [admin, setAdmin] = useState([]);
@@ -24,6 +25,7 @@ function Creator() {
         {admin && admin.length > 0 ? (
           admin.slice(0, 4).map((element) => {
             return (
+              <Link to={`/my-profile/${element._id}`}>
               <div key={element._id}>
                 <div className="">
                   <img
@@ -37,6 +39,7 @@ function Creator() {
                   </div>
                 </div>
               </div>
+              </Link>
             );
           })
         ) : (
